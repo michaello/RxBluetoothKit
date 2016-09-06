@@ -40,7 +40,7 @@ public class Peripheral {
     
     /// Implementation of peripheral
     let peripheral: RxPeripheralType
-    
+
     public var coreBluetoothPeripheral: CBPeripheral {
         return (peripheral as! RxCBPeripheral).peripheral
     }		      
