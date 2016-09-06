@@ -28,7 +28,7 @@ import RxSwift
  Core Bluetooth implementation of RxPeripheralType. This is a lightweight wrapper which allows
  to hide all implementation details.
  */
-public class RxCBPeripheral: RxPeripheralType {
+class RxCBPeripheral: RxPeripheralType {
 
     public let peripheral: CBPeripheral
     private let internalDelegate: InternalPeripheralDelegate

@@ -27,7 +27,7 @@ import CoreBluetooth
 /**
  Protocol which wraps bluetooth peripheral.
  */
-public protocol RxPeripheralType {
+protocol RxPeripheralType {
 
     /// Peripheral's name
     var name: String? { get }
