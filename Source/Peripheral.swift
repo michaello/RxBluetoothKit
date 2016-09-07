@@ -37,7 +37,7 @@ public class Peripheral {
         self.manager = manager
         self.peripheral = peripheral
     }
-    
+
     /// Implementation of peripheral
     let peripheral: RxPeripheralType
 
